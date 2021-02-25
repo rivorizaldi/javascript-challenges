@@ -31,8 +31,8 @@ function loadUserContent(data, respStatus) {
             ${data.bio}
         </p>
         <div class="icon-container">
-            <span><i class="fas fa-users"></i> ${data.followers}</span>
-            <span><i class="fas fa-running"></i> ${data.following}</span>
+            <span><i class="fas fa-users"></i> ${data.followers} Followers</span>
+            <span><i class="fas fa-running"></i> ${data.following} Following</span>
         </div>
         </div>
     </div>

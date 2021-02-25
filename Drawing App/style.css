@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.title {
+  color: black;
+  margin-bottom: 32px;
+}
+
+#canvas {
+  border: 1px solid black;
+}
+
+.config {
+  margin-top: 36px;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+}
+
+.config div {
+  margin-right: 16px;
+}
+
+p {
+  text-align: center;
+}
+
+#line-width-text {
+  padding-left: 70px;
+}
